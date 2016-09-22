@@ -1,4 +1,4 @@
-package hashcodemethod;
+package hashcode;
 
 class HashCode {
 

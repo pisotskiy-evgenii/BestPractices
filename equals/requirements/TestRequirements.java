@@ -1,6 +1,6 @@
-package equalsmethod;
+package equals.requirements;
 
-public class EqualsTest {
+class TestRequirements {
 
     public static void main(String[] args) {
         Person A = new Person(25, true);

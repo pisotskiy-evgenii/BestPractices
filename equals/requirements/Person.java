@@ -1,4 +1,4 @@
-package equalsmethod;
+package equals.requirements;
 
 class Person {
     private int age;
