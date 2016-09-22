@@ -1,6 +1,6 @@
 package hashcodemethod;
 
-public class HashCode {
+class HashCode {
 
     private boolean booleanField = true;
     private char charField = 'c';
@@ -15,7 +15,7 @@ public class HashCode {
     private String referenceField = "some string";
 
     public static void main(String[] args) {
-        int hash = new HashCode().hashCode();
+        int hash = new HashCode().hashCode(); // hashcode can be negative, it's normal
         System.out.print(hash);
     }
 
