@@ -13,7 +13,7 @@ final class CaseInsensitiveString {
 
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(Object o) { // You don't need check o for null, because it does instanceof
         if (o instanceof CaseInsensitiveString) {
             return s.equalsIgnoreCase(((CaseInsensitiveString) o).s);
         }
