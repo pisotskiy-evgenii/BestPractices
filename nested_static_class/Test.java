@@ -1,4 +1,4 @@
-package nestedclass;
+package nested_static_class;
 
 class Test {
     public static void main(String[] args) {
