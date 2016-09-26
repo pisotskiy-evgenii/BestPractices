@@ -26,5 +26,4 @@ public class TestTransitivity {
             System.out.println();
         }
     }
-
 }
