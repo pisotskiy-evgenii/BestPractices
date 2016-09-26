@@ -33,7 +33,7 @@ public class Test {
         a1.m2(); // from A called
         //a.f(); // ERROR compilation, because f() unknown for A
         /*!!!*/
-        ((B) a1).f(); // ERROR RUN-TIME, because reference a1 wasn't linked with any B
+        ((B) a1).f(); // ERROR RUN-TIME, because reference a1 wasn't linked with any B object
 
         B b = new B();
         b.m1(); // overridden called from B
@@ -58,6 +58,5 @@ public class Test {
 
         a = b2; // ERROR RUN-TIME, see above
         a = b4; // ERROR RUN-TIME, see above
-
     }
 }
