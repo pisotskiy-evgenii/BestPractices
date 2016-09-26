@@ -1,4 +1,4 @@
-package polymorphism.multyextendsinterface;
+package polymorphism.multi_extends_interface;
 
 
 class Rectangle implements Compare {

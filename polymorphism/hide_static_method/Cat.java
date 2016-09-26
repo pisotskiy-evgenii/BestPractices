@@ -1,4 +1,4 @@
-package polymorphism.hidestaticmethod;
+package polymorphism.hide_static_method;
 
 /*
  * The distinction between hiding a static method and overriding an instance method has important

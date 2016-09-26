@@ -1,4 +1,4 @@
-package polymorphism.hidefields;
+package polymorphism.hide_fields;
 
 /*
  * Within a class, a field that has the same name as a field in the superclass

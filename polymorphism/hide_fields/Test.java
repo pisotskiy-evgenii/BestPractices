@@ -1,4 +1,4 @@
-package polymorphism.hidefields;
+package polymorphism.hide_fields;
 
 class Test {
 

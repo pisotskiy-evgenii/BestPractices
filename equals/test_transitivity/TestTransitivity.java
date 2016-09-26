@@ -1,4 +1,4 @@
-package equals.testtransitivity;
+package equals.test_transitivity;
 
 
 public class TestTransitivity {

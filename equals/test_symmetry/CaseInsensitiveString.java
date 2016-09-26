@@ -1,4 +1,4 @@
-package equals.testsymmetry;
+package equals.test_symmetry;
 
 
 final class CaseInsensitiveString {

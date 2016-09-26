@@ -7,12 +7,12 @@ class Test {
         OuterClass.outerMeth2();
 
 
-        OuterClass.InnerClass inner = new OuterClass().new InnerClass(); // !!!
-        inner.innerMeth();
+        OuterClass.InnerClass nested = new OuterClass().new InnerClass(); // !!!
+        nested.innerMeth();
 
 
-        OuterClass.StaticClass innerStat = new OuterClass.StaticClass(); // !!!
-        innerStat.nonStaticMeth();
+        OuterClass.StaticClass nestedStatic = new OuterClass.StaticClass(); // !!!
+        nestedStatic.nonStaticMeth();
         OuterClass.StaticClass.staticMeth();
     }
 }

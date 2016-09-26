@@ -1,4 +1,4 @@
-package equals.testsymmetry;
+package equals.test_symmetry;
 
 class TestSymmetry {
     public static void main(String[] args) {

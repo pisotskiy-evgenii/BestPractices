@@ -1,4 +1,4 @@
-package polymorphism.hidestaticmethod;
+package polymorphism.hide_static_method;
 
 class Animal {
 
