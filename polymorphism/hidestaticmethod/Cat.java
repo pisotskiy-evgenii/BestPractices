@@ -1,4 +1,4 @@
-package polimorphizm.hidestaticmethod;
+package polymorphism.hidestaticmethod;
 
 class Cat extends Animal {
 

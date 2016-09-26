@@ -1,4 +1,4 @@
-package polimorphizm;
+package polymorphism;
 
 class A {
     void m1() {
