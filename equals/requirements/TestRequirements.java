@@ -1,5 +1,8 @@
 package equals.requirements;
 
+/**
+ * Always override the method hashCode whenever you override method equals.
+ */
 class TestRequirements {
 
     public static void main(String[] args) {

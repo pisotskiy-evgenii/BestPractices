@@ -1,5 +1,8 @@
 package equals.requirements;
 
+/**
+ * Always override the method hashCode whenever you override method equals.
+ */
 class Person {
     private int age;
     private boolean married;

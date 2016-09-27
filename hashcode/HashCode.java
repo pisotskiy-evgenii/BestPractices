@@ -1,5 +1,8 @@
 package hashcode;
 
+/**
+ * Always override the method hashCode whenever you override method equals.
+ */
 class HashCode {
 
     private boolean booleanField = true;
