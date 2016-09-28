@@ -4,12 +4,10 @@ package nested_static_class;
  * Static nested classes has access to only static members of the enclosing class,
  * even if they are declared private. Can have static and non-static declarations
  *
- * Non-static nested class can't have any static declarations (fields or methods)
+ * Non-static nested class can't have static declarations (fields or methods), but static final fields can have!!!
  * Non-static nested class can't be declared in static context (in static class or with static modifier)
  * Non-static nested class only has access to static and non-static members of the
  * enclosing class, even if they are declared private.
- *
- *
  */
 
 class OuterClass {
@@ -71,10 +69,10 @@ class OuterClass {
     }
 
     class InnerClass {
-        OuterClass oc = new OuterClass(); // only as non-static
+        private static final double PI = 3.14;
 
         // private static int i; // inner class can't have static declarations
-
+        OuterClass oc = new OuterClass(); // only as non-static
         /*
         static void innerMeth2(){ // inner class can't have static declarations
 

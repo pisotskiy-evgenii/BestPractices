@@ -2,6 +2,7 @@ package equals.requirements;
 
 /**
  * Always override the method hashCode whenever you override method equals.
+ * For every field which you tested in the equals() method, you must calculate a hash code:
  */
 class Person {
     private int age;
